@@ -8,7 +8,7 @@ require('dotenv').config();
 const Todo = require('./Schema')
 
 app.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://todos-mern-f.onrender.com"
 }))
 
 app.use(express.json())
